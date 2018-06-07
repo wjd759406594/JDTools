@@ -1,0 +1,22 @@
+{
+  "name": "JDTools",
+  "version": "0.1.0",
+  "summary": "A short description of JDTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wjd759406594/JDTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wjd759406594": "wangjiaodng@keking.cn"
+  },
+  "source": {
+    "git": "https://github.com/wjd759406594/JDTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JDTools/Classes/**/*"
+}

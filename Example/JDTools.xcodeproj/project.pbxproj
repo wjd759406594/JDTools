@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3072C50510816F7F43257E40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3072C50510816F7F43257E40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JDTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE02C7D2B83F4491718A26D8 /* Pods-JDTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDTools_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDTools_Example/Pods-JDTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D1E7A63814CC434F12ACA259 /* Pods-JDTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDTools_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDTools_Tests/Pods-JDTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DAAB4B7D12DACE8124DB32D5 /* JDTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JDTools.podspec; path = ../JDTools.podspec; sourceTree = "<group>"; };
+		DAAB4B7D12DACE8124DB32D5 /* JDTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JDTools.podspec; path = ../JDTools.podspec; sourceTree = "<group>"; };
 		EE6C273FED0EE3FCAF6888B1 /* Pods_JDTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F880075FFF4ED9B8EC22ABD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F880075FFF4ED9B8EC22ABD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wjd759406594;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XBF4K4NF5E;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = 62B039F9ADE3BCBAFA653BA9 /* Pods-JDTools_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XBF4K4NF5E;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JDTools/JDTools-Prefix.pch";
 				INFOPLIST_FILE = "JDTools/JDTools-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = AE02C7D2B83F4491718A26D8 /* Pods-JDTools_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XBF4K4NF5E;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JDTools/JDTools-Prefix.pch";
 				INFOPLIST_FILE = "JDTools/JDTools-Info.plist";
